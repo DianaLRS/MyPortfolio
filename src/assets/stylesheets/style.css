@@ -152,14 +152,9 @@ background-color: palevioletred;
 }
 
 .car-col{
-
-  /* border: orange 2px solid; */
+/* 
+  border: orange 2px solid; */
   max-width:  480px;
-  position: absolute;
-  top: 50%;
-  right: 38%;
-  left: 12%;
-  transform: translate(-50%, -50%);
 
 }
 
