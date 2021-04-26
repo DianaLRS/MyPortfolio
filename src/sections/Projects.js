@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import Media from '../components/Media';
 
 function Projects() {
@@ -6,7 +7,7 @@ function Projects() {
         <div>
 
             <Media/>
-            
+       
         </div>
     );
 }

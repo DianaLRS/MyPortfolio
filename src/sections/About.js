@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, Image } from 'react-bootstrap';
+import { Col, Row, Image, Container } from 'react-bootstrap';
 import TechSkills from '../components/TechSkills';
 import '../assets/stylesheets/style.css'
 import about from '../assets/images/about.jpg'
@@ -8,6 +8,7 @@ import NonTechSkills from '../components/NonTechSkills';
 function About() {
     return (
         <div>
+            <Container fluid>
             <Row className="about-row">
                 <Col md={2} className ='about-col left' id='about-pic-col'>
                 <Image src={about} roundedCircle className='thumbnail-pic'/>
@@ -26,7 +27,7 @@ function About() {
                 <NonTechSkills/>
                 </Col>
             </Row>
-            
+            </Container>
         </div>
     );
 }

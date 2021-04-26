@@ -1,7 +1,12 @@
+
+
+
+
 /* THIS DIVIDES THE SECTIONS */
   .section-divider{
       background-color: black;
       height: 100px;
+      border: solid 0.5px white;
   }
 
   /* THIS IS THE NAVBAR AND NAVS  */
@@ -18,39 +23,30 @@
   .landing-space{
 background-color: #181818 ;
     height: 950px;
-    color: whitesmoke
+    color: whitesmoke;
+  
 
   }
 .landing-col{
-    /* border:whitesmoke solid 2px; */
+    /* border:whitesmoke solid 0.5px; */
     position: relative;
 }
 
 .landing-text{
-   /* position: absolute;
+  position: absolute;
   top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
-
-  margin-top: 40%;
-
+  left: 50%;
+  transform: translate(-50%, -50%);
+/* border: solid 3px red; */
+max-width: fit-content;
 }
-/* .landing-text h1{
-    font-size: 100px;
-}
-
-.landing-text h3{
-    font-size: 50px;
-}
-
-.landing-text p{
-    font-size: 25px;
-} */
+/
 
 /* THIS IS THE ABOUT PAGE SECTION */
 
 .about-row{
-  height: 400px
+  height: 400px;
+ 
 }
 
 .about-col{
@@ -125,7 +121,7 @@ background-color: palevioletred;
 #non-tech-txt{
   color: black;
   font-size: 30px ;
-  border: solid 2px red
+  /* border: solid 2px red */
 }
 
 
@@ -154,14 +150,8 @@ background-color: palevioletred;
 }
 
 .car-col{
-
-  /* border: orange 2px solid; */
   max-width:  480px;
-  /* position: absolute;
-  top: 50%;
-  right: 38%;
-  left: 12%;
-  transform: translate(-50%, -50%); */
+
 
 }
 

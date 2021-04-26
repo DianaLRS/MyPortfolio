@@ -5,17 +5,20 @@ import SectionDividers from '../components/SectionDividers';
 import About from '../sections/About';
 import Projects from '../sections/Projects';
 import Contact from '../sections/Contact';
+// import MainWrapper from '../components/Wrapper';
+import { Container } from 'react-bootstrap';
 
 function ScrollPage(props) {
     return (
         <div>
-            <Navigation/>
+      {/* <Container fluid> */}
             <Landing/>
             <About/>
             <SectionDividers/>
             <Projects/>
             <SectionDividers/>
             <Contact/>
+   {/* </Container> */}
         </div>
     );
 }

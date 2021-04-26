@@ -1,5 +1,6 @@
 import React from 'react';
-import Cards from './Cards'
+import Cards from './Cards';
+import { Container } from 'react-bootstrap';
 import {aesthetica, budget, litWine, notetaker, partie, workout, work} from './images';
 
 
@@ -60,7 +61,9 @@ function Media(){
     return (
 
         <div>
+            <Container fluid>
 <Cards mediaItems={mediaItems}/>
+</Container>
         </div>
     );
 }

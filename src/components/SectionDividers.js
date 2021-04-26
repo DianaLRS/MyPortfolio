@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 
 
@@ -7,9 +7,11 @@ import { Row } from 'react-bootstrap';
 function SectionDividers(props) {
     return (
         <div>
+            <Container fluid>
             <Row className='section-divider'>
                 {props.children}
             </Row>
+            </Container>
         </div>
     );
 }

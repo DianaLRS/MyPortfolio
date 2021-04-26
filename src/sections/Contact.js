@@ -9,6 +9,8 @@ function Contact() {
     return (
         <div>
 
+<Container fluid>
+
             <Row className='contact-row'>
         
                 <Container className='contact-container'>
@@ -20,7 +22,10 @@ function Contact() {
                 </Container>
 
             </Row>
+            </Container>
+            <Container fluid>
             <Footer />
+            </Container>
         </div>
     );
 }
