@@ -167,10 +167,14 @@ background-color: palevioletred;
 .contact-row{
   height: 150px;
 
+
 }
 
 .contact-container{
-  margin: auto;
+ margin: auto;
+  /* border: solid 1px red; */
+
+
 }
 
 #github{

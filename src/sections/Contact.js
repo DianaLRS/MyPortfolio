@@ -13,17 +13,17 @@ function Contact() {
 
             <Row className='contact-row'>
         
-                <Container className='contact-container'>
+                <div className='contact-container'>
                     <a target="blank" href="https://github.com/DianaLRS"> <img id="github" src={Git} /> </a>
 
                     <a target="blank" href="https://www.linkedin.com/in/dianalrs/"  > <img id="linkedIn" src={Linkedin} /></a>
 
                     <a href="mailto: dlramos194@gmail.comm"> <img src={Email} id="email" /></a>
-                </Container>
+                </div>
 
             </Row>
-            </Container>
-            <Container fluid>
+   
+          
             <Footer />
             </Container>
         </div>
