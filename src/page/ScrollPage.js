@@ -13,8 +13,9 @@ function ScrollPage(props) {
         <div>
       {/* <Container fluid> */}
             <Landing/>
-            <About/>
             <SectionDividers/>
+            <About/>
+            {/* <SectionDividers/> */}
             <Projects/>
             <SectionDividers/>
             <Contact/>

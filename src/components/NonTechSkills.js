@@ -14,10 +14,10 @@ function NonTechSkills(){
     return (
 
     <div> 
- <Container className='skills-contnr'>
- <ListGroup horizontal className='skills-group'> <span className='first-row two'>Non-Technical Skills:</span>   {listItem} </ListGroup>
-
- </Container>
+ <div className='skills-contnr'>
+ <ListGroup horizontal className='first-row-two'> Non-Technical Skills</ListGroup>
+ <ListGroup horizontal className='skills-group'>   {listItem}</ListGroup>
+ </div>
 
     </div>
     );

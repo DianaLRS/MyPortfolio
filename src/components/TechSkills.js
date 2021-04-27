@@ -15,14 +15,13 @@ function TechSkills() {
     return (
         <div>
 
-            <Container className='skills-contnr'>
-
-              
-                <ListGroup horizontal className='skills-group'  >  <span className='first-row'>Technical Skills:</span>  {listItem.slice(0, 4)} </ListGroup>
-                <ListGroup horizontal className='skills-group rows' >{listItem.slice(4, 10)}</ListGroup>
-                <ListGroup horizontal className='skills-group rows' >{listItem.slice(10, 16)}</ListGroup>
-                <ListGroup horizontal className='skills-group rows' >{listItem.slice(16, 24)}</ListGroup>
-            </Container>
+            <div className='skills-contnr'>
+                <ListGroup horizontal  className='first-row'> Technical Skills</ListGroup>
+                <ListGroup horizontal className='skills-group ' > {listItem.slice(0, 6)}</ListGroup>
+                <ListGroup horizontal className='skills-group ' >{listItem.slice(6, 12)}</ListGroup>
+                <ListGroup horizontal className='skills-group ' >{listItem.slice(12, 17)}</ListGroup>
+                <ListGroup horizontal className='skills-group ' >{listItem.slice(17, 24)}</ListGroup>
+            </div>
         </div>
     );
 }
