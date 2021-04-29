@@ -10,23 +10,16 @@ import Row from 'react-bootstrap/Row';
 function Cards(props) {
     const mediaItem = props.mediaItems.map((item) => (
         <div className='car-col'>
-            {/* <div className='card-div'> */}
               <h3 className='headers' >{item.title}</h3>
             <Carousel className='projects-carousel' >
                 {item.images.map((img, i) => (
-                    <Carousel.Item interval={3000}>
+                    <Carousel.Item  interval={3000}>
                         <img className='project-imgs' src={img.src} alt={img.alt} />
-                        <Carousel.Caption >
-                            
-                        </Carousel.Caption>
                         <p >{item.text}</p> 
 
                     </Carousel.Item>
                 ))}   
             </Carousel>
-      
-{/*          
-            </div>  */}
         </div>
     ))
     return (

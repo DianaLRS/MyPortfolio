@@ -142,29 +142,25 @@ height: 350px;
 }
 
 .projects-carousel{
-  width: 450px;
-  height: 500px;
+  width: 400px;
+  height: 450px;
   border: solid rgb(236, 232, 232) 2px;
   background-color: whitesmoke;
   border-radius: 0.5cm;
  padding: 10px;
- margin-left: 10px;
 }
 
-.card-div{
-  border: solid green 1px;
-  max-width: fit-content;
-}
+
 
 .project-imgs{
-  width: 420px;
-  height: 375px;
+  width: 375px;
+  height: 325px;
   border-radius: 0.2cm;
 }
 
 .car-col{
   max-width:  fit-content;
-  /* border: solid red 1px; */
+  border: solid red 1px;
   margin: auto;
 }
 
