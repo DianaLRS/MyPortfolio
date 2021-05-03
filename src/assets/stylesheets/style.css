@@ -57,7 +57,7 @@
 /* THIS IS THE ABOUT PAGE SECTION */
 
 .about-cntnr {
-  max-height: fit-content;
+ min-height: fit-content;
   /* border: chartreuse solid 1px; */
 }
 
@@ -148,40 +148,39 @@ max-width: fit-content;
   max-width: fit-content;
 }
 
-#non-tech-txt {
-  color    : black;
-  font-size: 30px;
-  /* border: solid 2px red */
-}
 
 
 /* PROJECTS SECTION */
 
 .project-row {
   height : fit-content;
-  padding: 20px;
-  margin : 10px;
+  padding-bottom: 1.4vmax;
+
 
   /* border: red solid 3px; */
 }
 
 .projects-carousel {
-  width           : 400px;
-  height          : 450px;
+  width           : 47vmin;
+  height          : 56vmin;
   border          : solid rgb(209, 206, 206) 2px;
   background-color: rgb(240, 238, 238);
   border-radius   : 0.5cm;
-  padding         : 10px;
+  padding:1.5vh;
 }
 
 .card-container {
-  border: green solid 3px;
+  /* border: green solid 3px; */
+  padding: 2vmin;
 }
 
 .project-imgs {
-  width        : 375px;
-  height       : 325px;
+  width        : 44.3vmin;
+  height       : 38vmin;
   border-radius: 0.2cm;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .car-col {
@@ -192,6 +191,17 @@ max-width: fit-content;
 .headers {
   max-width: fit-content;
   margin   : auto;
+  padding:1vh;
+  font-size: 3.5vmin;
+  /* border: solid red 3px; */
+
+}
+
+.card-txt{
+  font-size: 2vmin;
+margin: auto;
+text-align: center;
+/* border: solid red 3px; */
 }
 
 /* CONTACT and FOOTER SECTION */

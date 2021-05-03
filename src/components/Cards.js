@@ -15,7 +15,7 @@ function Cards(props) {
                 {item.images.map((img, i) => (
                     <Carousel.Item interval={3000}>
                         <img className='project-imgs' src={img.src} alt={img.alt} />
-                        <p >{item.text}</p>
+                        <p className='card-txt'>{item.text}</p>
 
                     </Carousel.Item>
                 ))}
