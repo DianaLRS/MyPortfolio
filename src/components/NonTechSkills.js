@@ -14,7 +14,7 @@ function NonTechSkills(){
     return (
 
     <div> 
- <div className='skills-contnr'>
+ <div className='skills-contnr '>
  <ListGroup horizontal className='first-row-two'> Non-Technical Skills</ListGroup>
  <ListGroup horizontal className='skills-group'>   {listItem}</ListGroup>
  </div>

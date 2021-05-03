@@ -10,15 +10,15 @@ import Row from 'react-bootstrap/Row';
 function Cards(props) {
     const mediaItem = props.mediaItems.map((item) => (
         <div className='car-col'>
-              <h3 className='headers' >{item.title}</h3>
+            <h3 className='headers' >{item.title}</h3>
             <Carousel className='projects-carousel' >
                 {item.images.map((img, i) => (
-                    <Carousel.Item  interval={3000}>
+                    <Carousel.Item interval={3000}>
                         <img className='project-imgs' src={img.src} alt={img.alt} />
-                        <p >{item.text}</p> 
+                        <p >{item.text}</p>
 
                     </Carousel.Item>
-                ))}   
+                ))}
             </Carousel>
         </div>
     ))
@@ -27,17 +27,14 @@ function Cards(props) {
         <div>
 
             <Row className='project-row' >
-             
-               
-                {mediaItem.slice(0, 1)}
-              
-                {mediaItem.slice(1, 2)}
-               
-                {mediaItem.slice(2, 3)}
-              
+                {mediaItem.slice(0, 3)}
                 {mediaItem.slice(3, 4)}
-              
-            </Row>
+
+                </Row>
+
+                {/* <Row className='project-row' >
+                {mediaItem.slice(3, 6)}
+            </Row> */}
 
         </div>
     );

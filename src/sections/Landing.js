@@ -6,12 +6,12 @@ function Landing() {
         <div>
             <Container fluid>
             <Row className='landing-space'>
-                <Col className='landing-col'>  </Col>
+                {/* <Col className='landing-col'>  </Col> */}
                 <Col className='landing-col' id='text-col'>
                 <div className='landing-text'>
-                    <h1 id="landing-hdr">HELLO!</h1>
-                    <h3 id='landing-intro'>I'm Diana</h3>
-                    <p id='landing-txt'> I code user-friendly apps and websites</p>
+                    <h1 id="landing-hdr"> H E L L O! </h1>
+                    <p id='landing-txt'> <span id='landing-intro'>I'm Diana.</span> <br/>I code user-friendly apps and websites.</p>
+                    {/* <p id='landing-txt'> I code user-friendly apps and websites</p> */}
                </div> 
                </Col>
               

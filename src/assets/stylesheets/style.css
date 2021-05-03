@@ -1,222 +1,243 @@
-
-
-
-
 /* THIS DIVIDES THE SECTIONS */
-  .section-divider{
-      background-color: black;
-      height: 70px;
-      /* border-top: solid 0.2px white; */
-  }
+.section-divider {
+  background-color: black;
+  height          : 70px;
+  /* border-top   : solid 0.2px white; */
+}
 
-  /* THIS IS THE NAVBAR AND NAVS  */
-  .navbar{
-    background-color: black;
-  }
+/* THIS IS THE NAVBAR AND NAVS  */
+.navbar {
+  background-color: black;
+}
 
-  .navs{
-      margin:auto
-  }
+.navs {
+  margin: auto
+}
 
 /* 
   LANDING PAGE SECTION */
-  .landing-space{
-background-color: #2b2a2a ;
-    height: 950px;
-    color: whitesmoke;
-  
+.landing-space {
+  background-color: #2b2a2a;
+  height          : 980px;
+  color           : whitesmoke;
 
-  }
-.landing-col{
-    /* border:whitesmoke solid 0.5px; */
-    position: relative;
+
 }
 
-.landing-text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-/* border: solid 3px red; */
-max-width: fit-content;
+.landing-col {
+  border  : whitesmoke solid 0.5px;
+  position: relative;
+
 }
 
+.landing-text {
+  position   : absolute;
+  top        : 40%;
+  left       : 70%;
+  /* border  : 3px solid #73AD21; */
+}
+
+#landing-hdr {
+  font-size: 5vw;
+  margin   : auto;
+}
+
+#landing-intro {
+  font-size : 2.5vw;
+  text-align: center;
+  /* border : solid red 1px; */
+}
+
+#landing-txt {
+  font-size : 1.25vw;
+  text-align: center;
+
+}
 
 /* THIS IS THE ABOUT PAGE SECTION */
 
-.about-cntnr{
-  max-height: fit-content; 
+.about-cntnr {
+  max-height: fit-content;
+  /* border: chartreuse solid 1px; */
 }
 
-.about-row{
- /* max-height: fit-content; */
- /* border: solid red 1px; */
+.about-row {
+  max-height: fit-content;
+  background-color: #181818;
+  color          :white;
+  /* border: pink solid 10px; */
+  /* margin: auto; */
 }
 
-.left{
-  background-color: #181818 ;
-  /* border: solid 2px greenyellow; */
+.clearfix {
+  overflow: auto;
 }
 
-#about-col-right{
-  background-color: whitesmoke;
-  width: fit-content;
-}
-
-.skills-group{
-  justify-content:center;
-}
-
-.skills-items{
-  margin-left: 20px;
-  height: fit-content;
-  width: fit-content;
-padding: 5px;
-background-color: palevioletred;
+.img-txt-div{
+  /* border: brown solid 2px;  */
+ 
 
 }
 
-.skills-contnr{
-  margin-top: 15px;;
-}
-
-.first-row{
-  font-size: 30px ;
-  color: black;
-  justify-content:center;
-}
-
-.first-row-two{
-  font-size: 30px ;
-  color: black;
-   margin-top: -35px;
-   justify-content:center;
-}
-
-.about-col{
-  color: white;
-  /* max-width: fit-content; */
-}
-
-#about-pic-col{
-
-position: relative;
-background-color: #181818 ;
-}
-
-.thumbnail-pic{
-width: 350px;
-height: 350px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.thumbnail-pic {
+  width    : 37vmin;
+  height   : 37vmin;
+  /* border: chartreuse solid 1px; */
+  /* margin-top: -1.5%;
+  margin-bottom: -15%; */
+  float: left;
 
 }
 
-#about-text p{
-  padding-top: 30px;
-  margin: auto;  
+#about-text p {
+  padding: 5px;
+  margin     : auto;
+  font-size       : 2vmin;
+/* border: brown solid 2px; */
+max-width: fit-content;
+
 }
 
-.about-text-edu{
-  margin: auto;
+.img-txt{
+ text-align: center;
+ line-height: 4vmin;;
+}
+
+.about-text-edu {
+  margin-left: 25%;
+  padding-top: 1vmin;
+  line-height: 4vmin;;
+}
+
+.left {
+  /* background-color: #181818; */
+/* max-height: fit-content; */
+
 }
 
 
-#non-tech-txt{
-  color: black;
-  font-size: 30px ;
+.skills-group {
+  justify-content: center;
+}
+
+.skills-items {
+  margin-left     : 2vw;
+  height          : fit-content;
+  max-width           : fit-content; 
+  background-color: palevioletred;
+  font-size       : 2.5vmin;
+
+}
+
+.skills-contnr {}
+
+.first-row {
+  font-size      : 3.5vmin;
+  justify-content: center;
+  margin-top     : 1vh;
+}
+
+.first-row-two {
+  font-size      : 3.5vmin;
+  margin-top     : -0.5vh;
+  justify-content: center;
+}
+
+.about-col {
+  color       : white;
+  max-width: fit-content;
+}
+
+#non-tech-txt {
+  color    : black;
+  font-size: 30px;
   /* border: solid 2px red */
 }
 
 
 /* PROJECTS SECTION */
 
-.project-row{
-  height: fit-content;
+.project-row {
+  height : fit-content;
   padding: 20px;
-  margin: 10px;
+  margin : 10px;
 
   /* border: red solid 3px; */
 }
 
-.projects-carousel{
-  width: 400px;
-  height: 450px;
-  border: solid rgb(236, 232, 232) 2px;
-  background-color: whitesmoke;
-  border-radius: 0.5cm;
- padding: 10px;
+.projects-carousel {
+  width           : 400px;
+  height          : 450px;
+  border          : solid rgb(209, 206, 206) 2px;
+  background-color: rgb(240, 238, 238);
+  border-radius   : 0.5cm;
+  padding         : 10px;
 }
 
+.card-container {
+  border: green solid 3px;
+}
 
-
-.project-imgs{
-  width: 375px;
-  height: 325px;
+.project-imgs {
+  width        : 375px;
+  height       : 325px;
   border-radius: 0.2cm;
 }
 
-.car-col{
-  max-width:  fit-content;
-  border: solid red 1px;
+.car-col {
+  /* border: solid red 3px; */
   margin: auto;
 }
 
-.headers{
-  max-width:fit-content;
-  margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
+.headers {
+  max-width: fit-content;
+  margin   : auto;
 }
 
 /* CONTACT and FOOTER SECTION */
 
-.contact-row{
+.contact-row {
   max-height: fit-content;
 
 
 }
 
-.contact-container{
- margin: auto;
+.contact-container {
+  margin   : auto;
   /* border: solid 1px red; */
 
 
 }
 
-
-
-#github{
+#github {
   height: 120px;
-  width: 120px;
-    
+  width : 120px;
+
 
 }
 
-#linkedIn{
-  height: 120px;
-  width: 120px;
-  margin-left: 50px;
-  margin-right: 50px;
+#linkedIn {
+  height          : 120px;
+  width           : 120px;
+  margin-left     : 50px;
+  margin-right    : 50px;
   /* border-radius: 2cm; */
 
 }
 
-#email{
+#email {
   height: 150px;
-  width: 150px;;
+  width : 150px;
+
 
 }
 
-.footer{
+.footer {
   background-color: black;
-  color: rgb(128, 127, 127);
-  height: 50px;
+  color           : rgb(128, 127, 127);
+  height          : 50px;
 }
 
-.footer p{
-  margin:auto
+.footer p {
+  margin: auto
 }

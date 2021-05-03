@@ -15,7 +15,7 @@ function TechSkills() {
     return (
         <div>
 
-            <div className='skills-contnr'>
+            <div className='skills-contnr '>
                 <ListGroup horizontal  className='first-row'> Technical Skills</ListGroup>
                 <ListGroup horizontal className='skills-group ' > {listItem.slice(0, 6)}</ListGroup>
                 <ListGroup horizontal className='skills-group ' >{listItem.slice(6, 12)}</ListGroup>
