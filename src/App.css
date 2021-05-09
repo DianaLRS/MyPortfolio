@@ -109,14 +109,14 @@
  .contact-container{
   margin   : auto;
   margin-top: 5px;
-
  }
 
 
  .contact-img{
   max-width    :3em;
   width        : 2.5em;
-  opacity: 70%;
+  opacity: 65%;
+  background-color: rgba(255, 255, 255, 0.822);
   border: solid rgba(255, 255, 255, 0.822) 2px;
   -moz-box-shadow: 0 0 15px #fff;
 -webkit-box-shadow: 0 0 15px #fff;
