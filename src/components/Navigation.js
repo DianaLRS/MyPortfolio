@@ -12,16 +12,16 @@ function Navigation() {
                 <Container>
                     <Nav className="navs">
                         <Nav.Item>
-                            <Nav.Link>Home</Nav.Link>
+                            <Nav.Link className='nav-link'>Home</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link>About Me</Nav.Link>
+                            <Nav.Link className='nav-link'>About Me</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link>My Projects</Nav.Link>
+                            <Nav.Link className='nav-link'>My Projects</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link>Contact Me</Nav.Link>
+                            <Nav.Link className='nav-link'>Contact Me</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Container>

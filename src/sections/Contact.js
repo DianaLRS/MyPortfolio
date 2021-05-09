@@ -15,22 +15,19 @@ function Contact() {
         
                 <div className='contact-container'>
                     <a target="blank" href="https://github.com/DianaLRS"> 
-                    {/* <Image id="github" src={Git} className='contant-img' />  */}
+                    <Image id="github"  roundedCircle src={Git} className='contact-img' /> 
                     </a>
 
                     <a target="blank" href="https://www.linkedin.com/in/dianalrs/"  > 
-                    {/* <Image id="linkedIn" src={Linkedin} className='contant-img' /> */}
+                    <Image id="linkedIn"  roundedCircle src={Linkedin} className='contact-img' />
                     </a>
 
                     <a href="mailto: dlramos194@gmail.comm">
-                         {/* <Image src={Email} id="email" className='contant-img'/> */}
+                         <Image src={Email}  roundedCircle id="email" className='contact-img'/>
                          </a>
                 </div>
 
             </Row>
-   
-          
-            <Footer />
             </Container>
         </div>
     );

@@ -14,7 +14,7 @@ function Cards(props) {
             <Carousel className='projects-carousel' >
                 {item.images.map((img, i) => (
                     <Carousel.Item interval={3000}>
-                        {/* <img className='project-imgs' src={img.src} alt={img.alt} /> */}
+                        <img className='project-imgs' src={img.src} alt={img.alt} />
                         <p className='card-txt'>{item.text}</p>
 
                     </Carousel.Item>
@@ -31,10 +31,6 @@ function Cards(props) {
                 {mediaItem.slice(2, 4)}
 
                 </Row>
-
-                {/* <Row className='project-row' >
-                {mediaItem.slice(3, 6)}
-            </Row> */}
 
         </div>
     );

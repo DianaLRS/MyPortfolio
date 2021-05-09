@@ -5,7 +5,7 @@ import { Col, Container, ListGroup } from 'react-bootstrap';
 
 function TechSkills() {
 
-    const list = ['HTML5', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'Express', 'MERN', 'NPM','JQuery', 'MongoDB', 'Mongoose', 'MySQL', 'Sequelize', 'Bootstrap', 'UI-Kit', 'Material-UI', 'React-bootstrap', 'Git', 'Bash', 'Heroku', 'Handlebars', 'Third-Party APIs',];
+    const list = ['HTML5-', 'CSS-', 'JavaScript-',  'React.js-', 'Node.js-', 'Express-', 'MERN-', 'NPM','JQuery-', 'MongoDB-', 'Mongoose-', 'MySQL-', 'Sequelize-', 'Bootstrap-', 'Material UI','UI Kit-',  'React bootstrap-', 'Git-', 'Bash-', 'Heroku-', 'Handlebars-', 'Third Party API',];
     const listItem = list.map((item) => (
 
         <p className='skills-items'>{item}</p>
@@ -15,13 +15,15 @@ function TechSkills() {
     return (
         <div>
 
-            <Col className='skills-contnr '>
-                <ListGroup horizontal  className='first-row'> <h4>Technical Skills</h4></ListGroup>
-                <ListGroup horizontal className='skills-group ' > {listItem.slice(0, 6)}</ListGroup>
-                <ListGroup horizontal className='skills-group ' >{listItem.slice(6, 12)}</ListGroup>
-                <ListGroup horizontal className='skills-group ' >{listItem.slice(12, 17)}</ListGroup>
-                <ListGroup horizontal className='skills-group ' >{listItem.slice(17, 24)}</ListGroup>
-            </Col>
+            <Container className='skills-contnr '>
+              
+                {/* <h3 className='first-row'>Technical Skills</h3> */}
+          
+                <ListGroup horizontal className='skills-group ' > {listItem.slice(0,8)}</ListGroup>
+                <ListGroup horizontal className='skills-group ' >{listItem.slice(8, 15)}</ListGroup>
+                <ListGroup horizontal className='skills-group ' >{listItem.slice(15, 24)}</ListGroup>
+                {/* <ListGroup horizontal className='skills-group ' >{listItem.slice(19, 24)}</ListGroup> */}
+            </Container>
         </div>
     );
 }

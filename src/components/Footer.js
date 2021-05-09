@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div>
             <Row className='footer'>
-                <p> made with react (2021)</p>
+                <p> @made with react (2021)</p>
             </Row>
         </div>
     );

@@ -7,6 +7,7 @@ import Projects from '../sections/Projects';
 import Contact from '../sections/Contact';
 // import MainWrapper from '../components/Wrapper';
 import { Container } from 'react-bootstrap';
+import Footer from '../components/Footer';
 
 function ScrollPage(props) {
     return (
@@ -15,10 +16,8 @@ function ScrollPage(props) {
             <Landing/>
             <SectionDividers/>
             <About/>
-            <SectionDividers/>
             <Projects/>
-            <SectionDividers/>
-            <Contact/>
+        <Footer/>
 
         </div>
     );

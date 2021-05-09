@@ -27,13 +27,13 @@ function About() {
                         </div>
                     </Col>
                     </Row>
-                 <Row>  
-                     <Col>
+                 <Row className="skills-row">  
+                     
                       <TechSkills />
-                    </Col>
-                    {/* <Col>
-                    <NonTechSkills />
-                    </Col> */}
+                  
+{/*                   
+                    <NonTechSkills /> */}
+                    
                 </Row>
                      
                   

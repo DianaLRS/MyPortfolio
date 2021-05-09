@@ -2,15 +2,19 @@
    font-family: 'Roboto', sans-serif;
    font-size  : calc(9px + 0.9vw);
    line-height: calc(1.5em + 0.5vw);
+
  }
 
  .navbar {
    background-color: rgb(0, 0, 0);
+
  }
 
  .navs {
-   margin: auto
+   margin: auto;
+ 
  }
+
 
  /*landing section */
 
@@ -23,9 +27,9 @@
    border-bottom      : black 10px solid;
    border-left        : black 5px solid;
    border-right       : black 5px solid;
-   ;
-   position: relative;
-   color   : rgba(255, 255, 255, 0.822);
+   position   : relative;
+   color      : rgba(255, 255, 255, 0.822);
+   text-shadow: 1px 1px 4px#6d2518, 0px 0px 13px #e9d4d4, 0px 0px 8px #2e1f1f;
 
  }
 
@@ -53,6 +57,86 @@
    font-weight: 900;
  }
 
+ .skills-row {
+   font-weight     : 600;
+
+ }
+
+ .first-row {
+   font-weight: 700;
+ }
+
+
+ /* projects section */
+
+ .projects-carousel {
+   width        : 40vw;
+   border       : solid rgb(207, 203, 203) 4px;
+   background-color: rgba(248, 246, 246, 0.973);
+   border-radius: 0.5cm;
+   padding      : 1.5vh;
+ }
+
+
+ .project-imgs {
+
+   border-radius: 0.2cm;
+   display      : block;
+   margin-left  : auto;
+   margin-right : auto
+ }
+
+ .car-col {
+   margin: auto;
+ }
+
+ .headers {
+   max-width: fit-content;
+   margin   : auto;
+   padding  : 2vmin;
+
+ }
+
+ .card-txt {
+   margin    : auto;
+   text-align: center;
+ }
+
+
+ /*contact*/
+
+
+ .contact-container{
+  margin   : auto;
+  margin-top: 5px;
+
+ }
+
+
+ .contact-img{
+  max-width    :3em;
+  width        : 2.5em;
+  opacity: 70%;
+  border: solid rgba(255, 255, 255, 0.822) 2px;
+  -moz-box-shadow: 0 0 15px #fff;
+-webkit-box-shadow: 0 0 15px #fff;
+box-shadow: 0px 0px 20px #fff;
+ }
+
+
+ /*footer*/
+
+ .footer {
+  background-color: black;
+  color      : rgba(214, 212, 212, 0.822);
+
+}
+
+.footer p {
+  margin: auto
+}
+
+
 
  /* MOBILE */
 
@@ -62,8 +146,14 @@
    .landing-space {
      background-image: url(/src/assets/images/13.jpeg);
      background-size : cover;
+     position: relative;
    }
 
+   .landing-text{
+    position: absolute;
+    top: 40%;
+    margin-top: -35px;
+   }
    /*about section */
 
    .thumbnail-pic {
@@ -80,7 +170,56 @@
      color           : rgba(255, 255, 255, 0.822);
    }
 
- 
+   .first-row {
+     font-weight: 700;
+     text-align : center;
+     color      : rgba(255, 255, 255, 0.822);
+     text-shadow: 1px 1px 4px#cf6e5d, 0px 0px 13px #e9d4d4, 0px 0px 8px #332626;
+     margin-top : 2vh;
+   }
+
+   .skills-row {
+     display        : flex;
+     text-align     : center;
+     justify-content: center;
+     align-items    : center;
+     background-color: #91473C;
+     max-width: 100vw;
+   }
+
+   .skills-group {
+     text-decoration-line: solid 1px black;
+     color               : rgba(255, 255, 255, 0.822);
+     text-shadow         : 1px 1px 4px#e69f9f, 0px 0px 13px #e9d4d4, 0px 0px 8px #332626;
+   }
+
+   .skills-items {
+   
+   }
+
+   /* projects section */
+
+   .project-row{
+     background-color: rgb(247, 247, 247)
+   }
+
+   .projects-carousel {
+     width : 70vw;
+     height: 65vh;
+   }
+
+   .project-imgs {
+     width : 65vw;
+     height: 50vh;
+   }
+
+/*contact section */
+/* .contact-row{
+ border-top: #91473C solid 10px;
+ border-bottom: #91473C solid 10px;
+ padding: 10px;
+} */
+
 
  }
 
@@ -167,6 +306,4 @@
    }
  }
 
- /* .wrapper {
-  background-color: #9bcdce;
-} */
+ 
