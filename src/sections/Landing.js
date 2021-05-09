@@ -10,7 +10,8 @@ function Landing() {
                 <Col className='landing-col' id='text-col'>
                 <div className='landing-text'>
                     <h1 id="landing-hdr"> H E L L O! </h1>
-                    <p id='landing-txt'> <span id='landing-intro'>I'm Diana.</span> <br/>I code user-friendly apps and websites.</p>
+                    <h2 id='landing-intro'>I'm Diana.</h2>
+                    <h3 id='landing-txt'> I code user-friendly apps and websites.</h3>
                     {/* <p id='landing-txt'> I code user-friendly apps and websites</p> */}
                </div> 
                </Col>

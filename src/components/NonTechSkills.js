@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, ListGroup } from 'react-bootstrap';
-import '../assets/stylesheets/style.css'
+import { Container, ListGroup, Col } from 'react-bootstrap';
+// import '../assets/stylesheets/style.css'
 
 function NonTechSkills(){
 
@@ -14,10 +14,10 @@ function NonTechSkills(){
     return (
 
     <div> 
- <div className='skills-contnr '>
- <ListGroup horizontal className='first-row-two'> Non-Technical Skills</ListGroup>
+ <Col className='skills-contnr '>
+ <ListGroup horizontal className='first-row-two'> <h4>Non-Technical Skills</h4></ListGroup>
  <ListGroup horizontal className='skills-group'>   {listItem}</ListGroup>
- </div>
+ </Col>
 
     </div>
     );

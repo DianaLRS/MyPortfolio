@@ -14,11 +14,17 @@ function Contact() {
             <Row className='contact-row'>
         
                 <div className='contact-container'>
-                    <a target="blank" href="https://github.com/DianaLRS"> <Image id="github" src={Git} className='contant-img' /> </a>
+                    <a target="blank" href="https://github.com/DianaLRS"> 
+                    {/* <Image id="github" src={Git} className='contant-img' />  */}
+                    </a>
 
-                    <a target="blank" href="https://www.linkedin.com/in/dianalrs/"  > <Image id="linkedIn" src={Linkedin} className='contant-img' /></a>
+                    <a target="blank" href="https://www.linkedin.com/in/dianalrs/"  > 
+                    {/* <Image id="linkedIn" src={Linkedin} className='contant-img' /> */}
+                    </a>
 
-                    <a href="mailto: dlramos194@gmail.comm"> <Image src={Email} id="email" className='contant-img'/></a>
+                    <a href="mailto: dlramos194@gmail.comm">
+                         {/* <Image src={Email} id="email" className='contant-img'/> */}
+                         </a>
                 </div>
 
             </Row>

@@ -11,15 +11,15 @@ import { Container } from 'react-bootstrap';
 function ScrollPage(props) {
     return (
         <div>
-      {/* <Container fluid> */}
+   
             <Landing/>
             <SectionDividers/>
             <About/>
-            {/* <SectionDividers/> */}
+            <SectionDividers/>
             <Projects/>
             <SectionDividers/>
             <Contact/>
-   {/* </Container> */}
+
         </div>
     );
 }

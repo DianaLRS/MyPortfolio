@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, ListGroup } from 'react-bootstrap';
-import '../assets/stylesheets/style.css'
+import { Col, Container, ListGroup } from 'react-bootstrap';
+// import '../assets/stylesheets/style.css'
 
 
 function TechSkills() {
@@ -15,13 +15,13 @@ function TechSkills() {
     return (
         <div>
 
-            <div className='skills-contnr '>
-                <ListGroup horizontal  className='first-row'> Technical Skills</ListGroup>
+            <Col className='skills-contnr '>
+                <ListGroup horizontal  className='first-row'> <h4>Technical Skills</h4></ListGroup>
                 <ListGroup horizontal className='skills-group ' > {listItem.slice(0, 6)}</ListGroup>
                 <ListGroup horizontal className='skills-group ' >{listItem.slice(6, 12)}</ListGroup>
                 <ListGroup horizontal className='skills-group ' >{listItem.slice(12, 17)}</ListGroup>
                 <ListGroup horizontal className='skills-group ' >{listItem.slice(17, 24)}</ListGroup>
-            </div>
+            </Col>
         </div>
     );
 }
