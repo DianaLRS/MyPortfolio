@@ -260,7 +260,7 @@
 
    /* landing section*/
    .landing-space {
-     background-image: url(/src/assets/images/10.jpeg);
+     background-image: url(/src/assets/images/flippedheader.jpeg);
      background-size : cover;
      position        : relative;
    }
@@ -277,57 +277,55 @@
 
    .about-row{
      margin: auto;
+
    }
 
    .thumbnail-pic {
-     content: url(/src/assets/images/headshot.jpeg);
-     display     : block;
-     margin-left : auto;
-     margin-right: auto;
-     height       : 18em;
-   width        : 18em;
+     content: url(/src/assets/images/profile.jpeg);
      float: left;
      padding: 5px;
+     height: 15.625em;
+     width: 15.625em;
   
 
    }
 
 
-.about-row{
-  display     : block;
-  margin-left : auto;
-  margin-right: auto;
-}
 
-   .img-div{
+   /* .img-div{
   border: chartreuse solid 2px;
-   }
+  width: 33%;
+   } */
  
    .txt-div{
     border: chartreuse solid 2px;
-    width: 39%;
     padding: 10px;
   
 
    }
 
-   .skills-row{
+   .about-text-edu{
+     margin: auto;
+     max-width: fit-content;
+     text-align: center;
      border: chartreuse solid 2px;
-     /* margin-left: -10% */
+   }
+
+   .skills-row{  
+    background-color: cornsilk;
+    color: black;
+    border: chartreuse solid 2px;
+
    } 
 
    .skills-group{
-     border: brown solid 2px;
+    padding: 0%;
      width: fit-content;
      float: left;
-     margin: auto;
-
    }
 
-   
-
-
  }
+
 
 
 

@@ -12,12 +12,13 @@ function About() {
         <div>
             <Container fluid className='about-cntnr'>
                 <Row className="about-row">
-                    <div className='img-div'>
-                        <Image className='thumbnail-pic about-col' />
-                    </div>
+                    {/* <div className='img-div'>
+                      
+                    </div> */}
 
                     <br />
-                    <div className=" txt-div">
+                    <div className=" txt-div">  
+                    <Image className='thumbnail-pic about-col' />
                         <div className=' img-txt'>
                             <p>A determined and hard-working front-end web developer who loves mixing creativity and problem solving to deliver quality products. I aim to use my coding skills to help people in my under-served community breakout of the cycle of poverty and improve access to quality education.</p>
                         </div>
