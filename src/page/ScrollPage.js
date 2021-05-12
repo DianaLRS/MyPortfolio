@@ -16,6 +16,7 @@ function ScrollPage(props) {
             <Landing/>
             <SectionDividers/>
             <About/>
+            {/* <SectionDividers/> */}
             <Projects/>
         <Footer/>
 
