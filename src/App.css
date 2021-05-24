@@ -129,7 +129,7 @@
    border-radius   : 0.5cm;
    padding         : 1.5vh;
    width           : 47vmin;
-   height          : 56vmin;
+   height          : 60vmin;
  }
 
  .project-imgs {
@@ -234,7 +234,7 @@
    /* projects section */
    .projects-carousel {
      width : 80vw;
-     height: 65vh;
+     height: 67vh;
    }
 
    .project-imgs {
@@ -243,9 +243,91 @@
    }
  }
 
+/* -------------Breaking Points in Between Mobile and Desktop------------ */
+
+ @media only screen and (min-width: 50em) and (max-width:95.5em) {
+ 
+  .about-row {
+    text-align      : center;
+    background-color: black;
+    color           : rgba(255, 255, 255, 0.822);
+  }
+
+  
+
+  .txt-div {
+    /* border : chartreuse solid 2px; */
+    padding         : 15px;
+    width: 100vw;
+    margin:auto;
+
+  }
+
+  .about-text-edu {
+    /* font-weight: 900; */
+    margin-top     : 12px;
+    padding-right: 5px;
+
+
+  }
+  .skills-row {
+    background-color: #bc0114ad;
+    width           : 100vw;
+
+  }
+
+  .skills-cntnr{
+ 
+
+    max-width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+
+ 
+
+  }
+  .skills-group {
+      margin: auto;
+      margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+  .skills-items {
+    display: inline;
+
+  }
+
+}
+
+@media only screen and (min-width: 50em) and (max-width: 65em) {
+  .projects-carousel {
+    width : 70vw;
+    height: 70vh;
+  }
+
+  .project-imgs {
+    width : 65vw;
+    height: 50vh;
+  }
+  
+}
+@media only screen and (min-width: 65em) and (max-width: 95.5em) {
+  .projects-carousel {
+    width : 40vw;
+    height: 65vh;
+  }
+
+  .project-imgs {
+    width : 35vw;
+    height: 45vh;
+  }
+  
+}
+
  /*------------ DESKTOP--------- */
 
- @media only screen and (min-width: 50em) {
+ @media only screen and (min-width: 95.5em) {
    * {
      font-size  : 2vmin;
      line-height: 1.5em;
@@ -285,6 +367,16 @@
      margin     : 10px;
      padding-top: 5px;
    }
+
+   /* .projects-carousel {
+    width : 25vw;
+    height: 65vh;
+  }
+
+  .project-imgs {
+    width : 20vw;
+    height: 45vh;
+  } */
 
    /* 
   

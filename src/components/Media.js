@@ -13,6 +13,7 @@ const mediaItems = [
         text: "A user friendly and interactive app that bridges fashion and community. Made with Handlebars, MySQL, and third-party API integration.",
         tech: "Node.js, Express, MySQL, Sequelize ORM, Handlebars, Heroku, MVC paridigm, Pexels API",
         url: "https://secure-ocean-28347.herokuapp.com/",
+        git: "https://github.com/DianaLRS/Aesthetica",
         images: [{ src: aesthetica.a }, { src: aesthetica.b }, { src: aesthetica.c }, { src: aesthetica.d }]
     },
     {
@@ -21,6 +22,7 @@ const mediaItems = [
         text: "A MERN Stack + Material-UI Framework app to keep track of upcoming events, the budget, to-do's, invoices and RSVPs.",
         tech: "MERN Stack, SendGrid, Material-UI Framework",
         url: "https://powerful-fortress-17827.herokuapp.com/",
+        git: "https://github.com/DianaLRS/PARTIE-APP",
         images: [{ src: partie.p1 }, { src: partie.p2 }, { src: partie.p3 }, { src: partie.p4 }, { src: partie.p5 }]
     },
     {
@@ -29,6 +31,7 @@ const mediaItems = [
         text: "A simple HTML5/CSS/JS recommendation engine that helps avid readers pair their choice of genre or author with a corresponding wine using third-party API integration.",
         tech: "HTML5, CSS, JavaScript, Open Weather Map API, GoogleBooks API, NYT Book Review API ",
         url: "https://dianalrs.github.io/Lit-Wine/",
+        git: "https://github.com/DianaLRS/Lit-Wine-App",
         images: [{ src: litWine.wine1 }, { src: litWine.wine2 }, { src: litWine.wine3 }]
     },
     {
@@ -37,6 +40,7 @@ const mediaItems = [
         text: "This Express + MongoDB fitness app allows users to add new workouts and update exsisting workouts along with a visual display to track progress. ",
         tech: "MongoDB, Mongoose, Node.js, Express, Morgan",
         url: "https://thawing-stream-39370.herokuapp.com/?id=6045246bd70c8a0017ad4114",
+        git: "https://github.com/DianaLRS/Workout-Tracker",
         images: [{ src: workout.w1 }, { src: workout.w2 }, { src: workout.w3 }, { src: workout.w4 }, { src: workout.w5 }]
     },
     {
@@ -45,6 +49,7 @@ const mediaItems = [
         text: "A useful PWA app for travellers to track their expenses both online and offline.",
         tech: "Node.js, Express, MongoDB, Mongoose",
         url: "https://nameless-falls-93842.herokuapp.com/",
+        git: "https://github.com/DianaLRS/Budget-Tracker",
         images: [{ src: budget.bgt1 }, { src: budget.bgt2 }]
     },
     {
@@ -53,6 +58,7 @@ const mediaItems = [
         text: "A MongoDB and Mongoose based app to write, save, edit, and delete notes with a clean and user friendly interface",
         tech: "Node.js, Express, Path, fs",
         url: "https://desolate-inlet-44144.herokuapp.com/",
+        git:"https://github.com/DianaLRS/Note-Taker-App",
         images: [{ src: notetaker.note1 }, { src: notetaker.note2 }, { src: notetaker.note3 }]
     },
     // {

@@ -5,14 +5,14 @@ import './App.css'
 // import '../src/assets/stylesheets/style.css'
 import Navigation from './components/Navigation';
 // import { Container } from 'react-bootstrap';
-// import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 // import Landing from '../src/sections/Landing'
 
 
 
 function App() {
   return (
-  
+  <Router>
     <div>
 
       <Navigation/>
@@ -21,7 +21,7 @@ function App() {
       <ScrollPage className="scroll-page"/>
 
     </div>
-
+</Router>
   );
 }
 

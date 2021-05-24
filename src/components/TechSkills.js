@@ -20,7 +20,6 @@ function TechSkills() {
             {/* <h3 className='first-row'>Technical Skills</h3> */}
             <div className='skills-cntnr'>
                 <ul className='skills-group ' > {listItem.slice(0, 8)}</ul>  
-           
                 <ul className='skills-group ' >{listItem.slice(8, 15)}</ul>
                 <ul className='skills-group ' >{listItem.slice(15, 24)}</ul>
            </div>
