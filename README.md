@@ -3,7 +3,7 @@
 # MyPortfolio
 https://dianalrs.github.io/MyPortfolio/
 # Description
-This portfolio was built using React.js and the framework  React-bootstrap. It is currently under construction. Future features will include a functional navigation bar, a "contact-me" inegration direct from portfolio page, an addition of a blog section, along with some cosmetic procedures. 
+This portfolio was built using React.js and the framework  React-bootstrap. It is currently under construction. Future features will include a functional navigation bar, a "contact-me" inegration direct from portfolio page, an addition of a blog section, along with some cosmetic changes. 
 # Table of Contents 
 * [Installation](#installation)
 * [Usage](#usage)
