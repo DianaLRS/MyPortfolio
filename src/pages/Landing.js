@@ -14,12 +14,8 @@ function Landing() {
                     <h2 id='landing-intro'>I'm Diana.</h2>
                     <h3 id='landing-txt'> I code user-friendly apps and websites.</h3>
                     <Contact/>
-                    {/* <p id='landing-txt'> I code user-friendly apps and websites</p> */}
                </div> 
-
-               
                </Col>
-              
 
             </Row>
             </Container>

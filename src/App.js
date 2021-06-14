@@ -1,27 +1,33 @@
 
 import React from "react";
-import ScrollPage from './page/ScrollPage';
-import './App.css'
-// import '../src/assets/stylesheets/style.css'
-import Navigation from './components/Navigation';
-// import { Container } from 'react-bootstrap';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-// import Landing from '../src/sections/Landing'
+import Landing from './pages/Landing';
+import About from './pages/About'
+import Projects from './pages/Projects';
+import './App.css';
+import Navigation from "./components/Navigation";
+import SectionDividers from "./components/SectionDividers";
+import Footer from "./components/Footer";
+
+
 
 
 
 function App() {
   return (
-  <Router>
+
     <div>
 
-      <Navigation/>
-  
+<Navigation/>
+<Landing/>
+<SectionDividers/>
+<About/>
+<Projects/>
+<Footer/>
 
-      <ScrollPage className="scroll-page"/>
+
 
     </div>
-</Router>
+
   );
 }
 

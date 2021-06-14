@@ -190,6 +190,31 @@
    text-shadow: 0px 0px 10px #ffffff, 0px 0px 8px #969696;
  }
 
+ .psa-cont{
+   margin: auto;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   /* border: solid red 3px; */
+ }
+
+ .psa{
+   color: red;
+   margin-top: 20px;
+   margin: auto;
+  text-align: center;
+  border: #282c34 solid 3px;
+  border-radius: 20px;
+  padding: 10px;
+ }
+ .psa h3{
+margin-top: 30px;
+ }
+
+ .under-contruction-img{
+   height: 15em;
+   float: left;
+   /* border: solid red 3px; */
+ }
  /* ---------MOBILE ------------------*/
 
  @media screen and (max-width: 50em) {

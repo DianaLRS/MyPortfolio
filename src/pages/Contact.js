@@ -12,8 +12,9 @@ function Contact() {
 <Container fluid>
 
             <Row className='contact-row'>
-        
+       
                 <div className='contact-container'>
+                <p> Contact Me: </p>
                     <a target="blank" href="https://github.com/DianaLRS"> 
                     <Image id="github"  roundedCircle src={Git} className='contact-img' /> 
                     </a>

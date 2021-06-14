@@ -1,10 +1,7 @@
 import React from 'react';
-import { Col, Row, Image, Container } from 'react-bootstrap';
+import {  Row, Image, Container } from 'react-bootstrap';
 import TechSkills from '../components/TechSkills';
-import NonTechSkills from '../components/NonTechSkills';
-import headshot from '../assets/images/headshot.jpeg'
-import headshotfull from '../assets/images/headshotfull.jpeg'
-import bwheadshot from '../assets/images/bwheadshot.jpeg'
+
 
 
 function About() {
@@ -12,10 +9,6 @@ function About() {
         <div>
             <Container fluid className='about-cntnr'>
                 <Row className="about-row">
-                    {/* <div className='img-div'>
-                      
-                    </div> */}
-
                     <br />
                     <div className=" txt-div">  
                     <Image className='thumbnail-pic about-col' />
