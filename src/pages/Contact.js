@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Image, Row } from 'react-bootstrap';
-import Footer from '../components/Footer';
 import Email from '../assets/logos/Email.png'
 import Git from '../assets/logos/Git.png';
 import Linkedin from '../assets/logos/Linkedin.png'
